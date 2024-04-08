@@ -1,32 +1,30 @@
 import "./page.css"
-import Image from 'next/image'
-import JS from './img/pngegg.png'
-import Earth1 from './img/earth-1.jpeg'
-import React from './img/react1.svg'
-import NextJS from './img/nextjs.svg'
-import Node from './img/node-js.svg'
-import Postman from './img/postman.svg'
-import Vercel from './img/vercel.svg'
-import Github from './img/github.svg'
-import Bootstrap5 from './img/bootstrap.svg'
-import Invoice from './img/invoice.jpeg'
-import Workshop from './img/workshop.png'
-import Fivem from './img/fivem.png'
+import Image from "next/image"
+import JS from "./img/pngegg.png"
+import Earth1 from "./img/earth-1.jpeg"
+import React from "./img/react1.svg"
+import NextJS from "./img/nextjs.svg"
+import Node from "./img/node-js.svg"
+import Postman from "./img/postman.svg"
+import Vercel from "./img/vercel.svg"
+import Github from "./img/github.svg"
+import Bootstrap5 from "./img/bootstrap.svg"
+import Invoice from "./img/invoice.jpeg"
+import Workshop from "./img/workshop.png"
+import Fivem from "./img/fivem.png"
 
 
 export default function Home() {
-
   return (
     <>
       <>
-
         {/* ======= Header ======= */}
         <header id="header">
           <div className="d-flex flex-column">
             <div className="profile">
-              <Image src={Earth1} width={220} height={120} style={{ borderRadius: '50%', objectFit: 'cover' }} />
+              <Image src={Earth1} width={220} height={120} style={{ borderRadius: "50%", objectFit: "cover" }} />
               <h1 className="text-light">
-                <a href="index.html">Virapat Poangmalai</a>
+                <a href="index.html">Virapat Poangmalai&apos;</a>
               </h1>
 
             </div>
@@ -67,11 +65,7 @@ export default function Home() {
           <div className="hero-container" data-aos="fade-in">
             <h1>Virapat Poangmalai</h1>
             <p>
-              I'm Web Developer
-              <span
-                className="typed"
-                data-typed-items="Designer, Developer, Freelancer, Photographer"
-              />
+              Im Web Developer
             </p>
           </div>
         </section>
@@ -89,8 +83,8 @@ export default function Home() {
                 </p>
               </div>
               <div className="row">
-                <div className="col-lg-4" data-aos="fade-right" style={{ display: 'flex', justifyContent: 'center' }}>
-                  <Image src={Earth1} width={250} height={350} style={{ objectFit: 'cover', margin: 'auto' }} />
+                <div className="col-lg-4" data-aos="fade-right" style={{ display: "flex", justifyContent: "center" }}>
+                  <Image src={Earth1} width={250} height={350} style={{ objectFit: "cover", margin: "auto" }} />
                 </div>
                 <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
                   <h3>Web Developer :</h3>
@@ -109,7 +103,7 @@ export default function Home() {
                         </li>
                         <li>
                           <i className="bi bi-chevron-right" />
-                          <strong>City :</strong>{" "}<span>Bangkunnon , Bangkok</span>
+                          <strong>City :</strong>{" "}/<span>Bangkunnon , Bangkok</span>
                         </li>
                       </ul>
                     </div>
@@ -151,9 +145,9 @@ export default function Home() {
                   className="col-lg-3 col-md-6 d-md-flex align-items-md-stretch"
                   data-aos="fade-up"
                 >
-                  <div className="count-box" style={{ display: 'flex', flexDirection: 'column' }}>
-                    <Image src={JS} style={{ width: '200px', height: '100px' }} />
-                    <strong style={{ marginTop: '10px' }}>JavaScript / HTML / CSS</strong>
+                  <div className="count-box" style={{ display: "flex", flexDirection: "column" }}>
+                    <Image src={JS} style={{ width: "200px", height: "100px" }} />
+                    <strong style={{ marginTop: "10px" }}>JavaScript / HTML / CSS</strong>
                   </div>
                 </div>
 
@@ -162,9 +156,9 @@ export default function Home() {
                   data-aos="fade-up"
                   data-aos-delay={100}
                 >
-                  <div className="count-box" style={{ display: 'flex', flexDirection: 'column' }}>
-                    <Image src={React} style={{ width: '200px', height: '100px' }} />
-                    <strong style={{ marginTop: '10px' }}>React JS</strong>
+                  <div className="count-box" style={{ display: "flex", flexDirection: "column" }}>
+                    <Image src={React} style={{ width: "200px", height: "100px" }} />
+                    <strong style={{ marginTop: "10px" }}>React JS</strong>
                   </div>
                 </div>
 
@@ -173,9 +167,9 @@ export default function Home() {
                   data-aos="fade-up"
                   data-aos-delay={100}
                 >
-                  <div className="count-box" style={{ display: 'flex', flexDirection: 'column' }}>
-                    <Image src={NextJS} style={{ width: '180px', height: '100px' }} />
-                    <strong style={{ marginTop: '10px' }}>Next JS</strong>
+                  <div className="count-box" style={{ display: "flex", flexDirection: "column" }}>
+                    <Image src={NextJS} style={{ width: "180px", height: "100px" }} />
+                    <strong style={{ marginTop: "10px" }}>Next JS</strong>
                   </div>
                 </div>
 
@@ -184,9 +178,9 @@ export default function Home() {
                   data-aos="fade-up"
                   data-aos-delay={100}
                 >
-                  <div className="count-box" style={{ display: 'flex', flexDirection: 'column' }}>
-                    <Image src={Node} style={{ width: '200px', height: '100px' }} />
-                    <strong style={{ marginTop: '10px' }}>Node JS</strong>
+                  <div className="count-box" style={{ display: "flex", flexDirection: "column" }}>
+                    <Image src={Node} style={{ width: "200px", height: "100px" }} />
+                    <strong style={{ marginTop: "10px" }}>Node JS</strong>
                   </div>
                 </div>
 
@@ -195,9 +189,9 @@ export default function Home() {
                   data-aos="fade-up"
                   data-aos-delay={100}
                 >
-                  <div className="count-box" style={{ display: 'flex', flexDirection: 'column' }}>
-                    <Image src={Postman} style={{ width: '200px', height: '100px' }} />
-                    <strong style={{ marginTop: '10px' }}>Postman</strong>
+                  <div className="count-box" style={{ display: "flex", flexDirection: "column" }}>
+                    <Image src={Postman} style={{ width: "200px", height: "100px" }} />
+                    <strong style={{ marginTop: "10px" }}>Postman</strong>
                   </div>
                 </div>
 
@@ -206,9 +200,9 @@ export default function Home() {
                   data-aos="fade-up"
                   data-aos-delay={100}
                 >
-                  <div className="count-box" style={{ display: 'flex', flexDirection: 'column' }}>
-                    <Image src={Vercel} style={{ width: '200px', height: '100px' }} />
-                    <strong style={{ marginTop: '10px' }}>Vercel</strong>
+                  <div className="count-box" style={{ display: "flex", flexDirection: "column" }}>
+                    <Image src={Vercel} style={{ width: "200px", height: "100px" }} />
+                    <strong style={{ marginTop: "10px" }}>Vercel</strong>
                   </div>
                 </div>
 
@@ -217,9 +211,9 @@ export default function Home() {
                   data-aos="fade-up"
                   data-aos-delay={100}
                 >
-                  <div className="count-box" style={{ display: 'flex', flexDirection: 'column' }}>
-                    <Image src={Github} style={{ width: '200px', height: '100px' }} />
-                    <strong style={{ marginTop: '10px' }}>Github</strong>
+                  <div className="count-box" style={{ display: "flex", flexDirection: "column" }}>
+                    <Image src={Github} style={{ width: "200px", height: "100px" }} />
+                    <strong style={{ marginTop: "10px" }}>Github</strong>
                   </div>
                 </div>
 
@@ -228,9 +222,9 @@ export default function Home() {
                   data-aos="fade-up"
                   data-aos-delay={100}
                 >
-                  <div className="count-box" style={{ display: 'flex', flexDirection: 'column' }}>
-                    <Image src={Bootstrap5} style={{ width: '200px', height: '100px' }} />
-                    <strong style={{ marginTop: '10px' }}>Bootstrap5</strong>
+                  <div className="count-box" style={{ display: "flex", flexDirection: "column" }}>
+                    <Image src={Bootstrap5} style={{ width: "200px", height: "100px" }} />
+                    <strong style={{ marginTop: "10px" }}>Bootstrap5</strong>
                   </div>
                 </div>
               </div>
@@ -312,9 +306,9 @@ export default function Home() {
               <div className="section-title">
                 <h2>Portfolio</h2>
               </div>
-              <div id="card-portfolio" className="col-12" style={{ display: 'flex', justifyContent: 'space-between' }}>
-                <div class="card col-12 col-lg-4" style={{ width: '18em', marginTop: '10px' }}>
-                  <Image src={Invoice} st style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+              <div id="card-portfolio" className="col-12" style={{ display: "flex", justifyContent: "space-between" }}>
+                <div class="card col-12 col-lg-4" style={{ width: "18em", marginTop: "10px" }}>
+                  <Image src={Invoice} st style={{ width: "100%", height: "100%", objectFit: "contain" }} />
                   <div class="card-body">
                     <h5 class="card-title">Linebot - generate invoice</h5>
                     <p class="card-text">
@@ -326,8 +320,8 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div class="card col-4" style={{ width: '18em', marginTop: '10px' }}>
-                  <Image src={Workshop} st style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                <div class="card col-4" style={{ width: "18em", marginTop: "10px" }}>
+                  <Image src={Workshop} st style={{ width: "100%", height: "100%", objectFit: "contain" }} />
                   <div class="card-body">
                     <h5 class="card-title">Workshop POS</h5>
                     <p class="card-text">
@@ -338,8 +332,8 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div class="card col-4" style={{ width: '18em', marginTop: '10px' }}>
-                  <Image src={Fivem} st style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                <div class="card col-4" style={{ width: "18em", marginTop: "10px" }}>
+                  <Image src={Fivem} st style={{ width: "100%", height: "100%", objectFit: "contain" }} />
                   <div class="card-body">
                     <h5 class="card-title">DiscordBOT</h5>
                     <p class="card-text">This project was created to reduce the problems of admins.
