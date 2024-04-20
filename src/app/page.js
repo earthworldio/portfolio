@@ -316,7 +316,7 @@ export default function Home() {
                       invoices and collecting payments allowing for seamless
                       generation
                     </p>
-                    <a href="https://drive.google.com/file/d/1q7rLn1UvzYoZHy3iAqwPBkqFXPf9ynZv/view" target="_blank" class="btn btn-primary">Read document.pdf</a>
+                    <a href="https://drive.google.com/file/d/1q7rLn1UvzYoZHy3iAqwPBkqFXPf9ynZv/view?usp=sharing" target="_blank" class="btn btn-primary">Read document.pdf</a>
                   </div>
                 </div>
 
@@ -328,7 +328,7 @@ export default function Home() {
                       This project is designed for practicing various skills related to tasks such as CRUD operations or data
                       management.
                     </p>
-                    <a href="https://drive.google.com/file/d/1qQr9os-D_gqLHzKp1OAX-Hm9R3H1sVBD/view" target="_blank" class="btn btn-primary">Read document.pdf</a>
+                    <a href="https://drive.google.com/file/d/1qQr9os-D_gqLHzKp1OAX-Hm9R3H1sVBD/view?usp=sharing" target="_blank" class="btn btn-primary">Read document.pdf</a>
                   </div>
                 </div>
 
